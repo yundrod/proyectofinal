@@ -1,10 +1,11 @@
 #include "personajes.h"
+#include "bomba.h"
 #include <SFML/Graphics.hpp>
 using namespace sf;
 personaje::personaje()
 : sf::Sprite()
 {
-    //establecemos la tectura del personaje
+    //establecemos la textura del personaje
     textura_personaje.loadFromFile("Bomberman_2.jpg");
     this->setTexture(textura_personaje);
 
@@ -15,6 +16,7 @@ personaje::personaje()
     this->setPosition(800/2.0f, 800/2.0f);
     this->setScale(0.1,0.1);
 }
+//movemos el personaje segun las flechas
 void personaje::mover(){
     if(Keyboard::isKeyPressed(Keyboard::Up)){
         this->move(0,-1);

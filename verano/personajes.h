@@ -5,6 +5,7 @@ class personaje:public sf::Sprite{
 public:
     personaje();
     void mover();
+    void poner_bomba();
 private:
     sf::Texture textura_personaje;
 };

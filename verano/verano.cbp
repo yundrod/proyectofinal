@@ -44,6 +44,8 @@
 		<Linker>
 			<Add directory="C:/Users/UsuarioPC/Desktop/sfmltdm/SFML-2.4.2/lib" />
 		</Linker>
+		<Unit filename="bomba.cpp" />
+		<Unit filename="bomba.h" />
 		<Unit filename="bomberman.cpp" />
 		<Unit filename="bomberman.h" />
 		<Unit filename="main.cpp" />

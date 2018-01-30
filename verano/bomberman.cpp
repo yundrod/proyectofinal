@@ -3,7 +3,7 @@
 bomber::bomber()
 {
     // Creamos la ventana
-	window.create(sf::VideoMode(800, 800, 32), "", sf::Style::Close);
+	window.create(sf::VideoMode(alto, ancho, 32), "", sf::Style::Close);
 	// Activa la sincronización vertical (60 fps)
 	window.setVerticalSyncEnabled(true);
 
@@ -15,7 +15,8 @@ bomber::bomber()
 	// Se carga la música de fondo
 	//music.openFromFile("music.ogg");
 	//music.setLoop(true);
-	//music.play();
+	//music.play();Keyboard::isKeyPressed(Keyboard::Up)
+
 }
 
 void bomber::run()

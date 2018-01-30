@@ -5,16 +5,21 @@
 #include <SFML/Audio.hpp>
 #include <SFML/System/Time.hpp>
 #include "personajes.h"
+#include "submuro.h"
+#define alto(800)
+#define ancho(800)
 class bomber{
-public:
-    bomber();
-    void run();
 private:
+    //creamos
     sf::RenderWindow window;
-
     sf::Texture fondo;
     sf::Sprite imagenfondo;
     //sf::Music music;
     personaje player;
+    submuro pared;
+public:
+    bomber();
+    void run();
+
 };
 #endif // BOMBERMAN_H
