@@ -8,8 +8,8 @@ public:
     Texture fondo_muro;
     Sprite *cuerpo;
     submuro();
-    submuro(float x,float y);
     ~submuro();
+
     //void draw();
     void dibujar();
 

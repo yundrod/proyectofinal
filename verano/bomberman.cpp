@@ -1,5 +1,5 @@
 #include "bomberman.h"
-
+#include<windows.h>
 bomber::bomber()
 {
     // Creamos la ventana
@@ -40,7 +40,9 @@ void bomber::run()
 		// Dibujamos los elementos del juego
 		window.draw(imagenfondo);
 		window.draw(player);
-
+		for(int i =0;i<9;i++){
+			window.draw(pared.cuerpo[i]);
+		}
 		// Actualizamos la ventana
 		window.display();
 	}

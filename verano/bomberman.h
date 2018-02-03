@@ -6,8 +6,8 @@
 #include <SFML/System/Time.hpp>
 #include "personajes.h"
 #include "submuro.h"
-#define alto(800)
-#define ancho(800)
+#define alto 900
+#define ancho 660
 class bomber{
 private:
     //creamos
