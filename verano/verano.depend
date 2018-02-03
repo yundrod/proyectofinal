@@ -396,7 +396,7 @@
 	<string>
 	<vector>
 
-1517185604 source:c:\users\usuariopc\desktop\verano\verano\submuro.cpp
+1517672877 source:c:\users\usuariopc\desktop\verano\verano\submuro.cpp
 	"submuro.h"
 
 1517097626 source:c:\users\usuariopc\desktop\verano\verano\punto.cpp
@@ -404,24 +404,25 @@
 
 1517180657 c:\users\usuariopc\desktop\verano\verano\punto.h
 
-1517185591 c:\users\usuariopc\desktop\verano\verano\submuro.h
+1517673334 c:\users\usuariopc\desktop\verano\verano\submuro.h
 	<SFML/Graphics.hpp>
-	"punto.h"
 
 1517184694 c:\users\usuariopc\desktop\verano\verano\ventana.h
 	<SFML/Graphics.hpp>
 	<SFML/Graphics/Color.hpp>
 	<SFML/Graphics/RenderWindow.hpp>
 
-1517188963 source:c:\users\usuariopc\desktop\verano\verano\bomberman.cpp
+1517673334 source:c:\users\usuariopc\desktop\verano\verano\bomberman.cpp
 	"bomberman.h"
+	<windows.h>
 
-1517188919 c:\users\usuariopc\desktop\verano\verano\bomberman.h
+1517673358 c:\users\usuariopc\desktop\verano\verano\bomberman.h
 	<iostream>
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
 	<SFML/System/Time.hpp>
 	"personajes.h"
+	"submuro.h"
 
 1486736397 c:\users\usuariopc\desktop\sfmltdm\sfml-2.4.2\include\sfml\audio.hpp
 	<SFML/System.hpp>
@@ -526,10 +527,24 @@
 	<SFML/Audio/Export.hpp>
 	<string>
 
-1517189288 source:c:\users\usuariopc\desktop\verano\verano\persoajes.cpp
+1517316317 source:c:\users\usuariopc\desktop\verano\verano\persoajes.cpp
 	"personajes.h"
+	"bomba.h"
 	<SFML/Graphics.hpp>
 
-1517187651 c:\users\usuariopc\desktop\verano\verano\personajes.h
+1517502870 c:\users\usuariopc\desktop\verano\verano\personajes.h
+	<SFML/Graphics.hpp>
+	"bomba.h"
+
+1517503095 source:c:\users\usuariopc\desktop\verano\verano\bomba.cpp
+	"bomba.h"
+
+1517503610 c:\users\usuariopc\desktop\verano\verano\bomba.h
+	<SFML/Graphics.hpp>
+
+1517504437 source:c:\users\usuariopc\desktop\verano\verano\personajes.cpp
+	<iostream>
+	"personajes.h"
+	"bomba.h"
 	<SFML/Graphics.hpp>
 
